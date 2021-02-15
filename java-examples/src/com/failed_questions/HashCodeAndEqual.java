@@ -37,7 +37,14 @@ public class HashCodeAndEqual {
 		System.out.println("Since Object a and c are equal, the map will update the object value for a");
 		map.forEach((K,V)->{System.out.println("Key:"+K+", value:"+V);});
 
+		String AD="YOLO";
 
+		String DA="YOLO";
+
+		String ADA="YOLOA";
+		String ADB="A";
+
+		System.out.println("adHashCode:"+AD.hashCode()+", daHashCode:"+DA.hashCode()+", adaHashCode:"+ADA.hashCode()+", adbHashCode:"+ADB.hashCode());
 	}
 }
 class AB{
